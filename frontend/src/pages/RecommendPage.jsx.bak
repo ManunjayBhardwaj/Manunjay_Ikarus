@@ -1,0 +1,45 @@
+import React, {useState} from 'react'
+import {recommend} from '../api'
+import ProductCard from '../components/ProductCard'
+
+const samples = [
+  'minimalist wooden chair under ₹5000',
+  'comfortable three-seater sofa for living room',
+  'compact study desk with drawer'
+]
+
+export default function RecommendPage(){
+  const [query, setQuery] = useState('')
+  const [loading, setLoading] = useState(false)
+  const [results, setResults] = useState([])
+
+  async function onSubmit(e){
+    e && e.preventDefault()
+    setLoading(true)
+    try{
+      const items = await recommend(query, 5)
+      setResults(items)
+    }catch(err){
+      console.error(err)
+      alert('Error or no backend running')
+    }
+    setLoading(false)
+  }
+
+  return (
+    <div style={{padding:20}}>
+      <h2>Product Recommendations</h2>
+      <form onSubmit={onSubmit} style={{display:'flex', gap:8}}>
+        <input value={query} onChange={e=>setQuery(e.target.value)} placeholder="Describe what you want" style={{flex:1,padding:8}}/>
+        <button type="submit">Recommend</button>
+      </form>
+      <div style={{marginTop:8}}>
+        {samples.map(s=> <button key={s} onClick={()=>setQuery(s)} style={{marginRight:8}}>{s}</button>)}
+      </div>
+      <div style={{marginTop:16}}>
+        {loading && <div>Loading...</div>}
+        {!loading && results.map(r=> <ProductCard key={r.uniq_id} product={r} />)}
+      </div>
+    </div>
+  )
+}
