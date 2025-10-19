@@ -1,0 +1,11 @@
+[build]
+  # Build from the frontend folder (monorepo). Netlify will run this command.
+  base = "frontend"
+  command = "npm install && npm run build"
+  publish = "build"
+
+[[redirects]]
+  # Single-page app fallback — serve index.html for all non-file routes
+  from = "/*"
+  to = "/index.html"
+  status = 200
