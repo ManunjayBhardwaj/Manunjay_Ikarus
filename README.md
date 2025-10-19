@@ -113,4 +113,137 @@ Quick start
   - Frontend: cd frontend && npm install && npm start
 
 If you plan to push to GitHub, ensure large generated folders like `frontend/node_modules` and `frontend/build` are excluded by `.gitignore` (already added).
-# Manunjay_Ikarus
+# Ikarus — Furniture Recommendation Web App
+
+Small demo app (FastAPI + React) that demonstrates ingestion, simple ML embeddings, a recommender, analytics, and a small GenAI-backed chat assistant. This repository was prepared as an internship / demo project and includes data-cleaning and training utilities.
+
+Status summary
+- Backend: FastAPI app in `backend/app/` with endpoints for recommend, analytics, ingest, and chat. Run with uvicorn.
+- Frontend: React (Create React App) in `frontend/` with pages for Recommend, Analytics, and Chat.
+- ML utilities: scripts in `backend/scripts/` to compute embeddings, cluster, and export artifacts to `backend/backend/storage/`.
+- Data: original and cleaned data under `backend/data/`.
+
+Table of contents
+- Quick start
+- Backend (detailed)
+- Frontend (detailed)
+- ML & data scripts
+- GenAI / model notes
+- Project layout
+- Troubleshooting
+- License
+
+Quick start (dev)
+
+Prerequisites
+- Python 3.10+ (3.11/3.12 tested). A virtualenv or conda env is recommended.
+- Node 16+ / npm 8+ for the frontend.
+- If you plan to use GenAI (Gemini / Vertex) ensure you have credentials and network access.
+
+1) Backend (API)
+
+Install deps and run the API (from repo root):
+
+```bash
+cd backend
+python -m venv .venv            # optional
+source .venv/bin/activate       # macOS / Linux
+pip install -r requirements.txt
+# start uvicorn
+uvicorn app.main:app --host 127.0.0.1 --port 8000 --app-dir app
+```
+
+Health check: http://127.0.0.1:8000/api/health
+
+Common backend files
+- `backend/app/main.py` — FastAPI app wiring and router includes.
+- `backend/app/routes/` — handlers for `/recommend`, `/analytics`, `/chat`, `/ingest`.
+- `backend/app/models/genai.py` — wrapper to call Gemini/Vertex and deterministic fallbacks.
+- `backend/backend/storage/` — generated artifacts (embeddings.npy, metadata.json, training_report.json) after running training.
+
+2) Frontend (dev)
+
+Install and run the React app:
+
+```bash
+cd frontend
+npm install
+npm start
+```
+
+Open http://localhost:3000
+
+3) Data cleaning & analytics
+
+The repository contains a cleaning script used to produce `backend/data/cleaned_furniture.csv` and `analytics.json`.
+
+```bash
+cd backend/scripts
+python clean_dataset.py --input ../../intern_data_ikarus.csv --outdir ../data --parquet
+```
+
+Outputs:
+- `backend/data/cleaned_furniture.csv`
+- `backend/data/analytics.json` (consumed by `/api/analytics`)
+
+4) Training embeddings & clusters (vector data)
+
+Compute embeddings and clustering (will produce artifacts under `backend/backend/storage`):
+
+```bash
+cd backend/scripts
+python train_models.py --input ../data/cleaned_furniture.csv --outdir ../backend/storage --model all-MiniLM-L6-v2
+```
+
+Notes: FAISS may fail to import on some systems (native build/ABI). The training script falls back to saving numpy embeddings and the app will perform in-process similarity search when FAISS is unavailable.
+
+GenAI / chat assistant
+- `backend/app/models/genai.py` implements multi-path GenAI: attempt Gemini REST when `GEMINI_API_KEY` is present, fallback to Vertex via LangChain if configured, and finally a deterministic templated generator (temperature-aware) if external APIs are unavailable.
+- To enable Gemini: export `GEMINI_API_KEY` into the environment before starting uvicorn. Logs are written to `/tmp/genai_debug.log`.
+
+Project layout (important files)
+
+```
+backend/
+  app/
+    main.py
+    routes/
+    models/
+  scripts/
+    clean_dataset.py
+    train_models.py
+  data/
+    cleaned_furniture.csv
+    analytics.json
+frontend/
+  src/
+    pages/
+    components/
+    styles/
+  package.json
+notebooks/
+  Data_Analytics.ipynb
+  Model_Training.ipynb
+```
+
+Troubleshooting
+- If the frontend shows a blank page after edits, run `npm run build` to regenerate the build and restart the dev server.
+- If FAISS import fails, the recommender falls back to numpy similarity. For production, install `faiss-cpu` from a compatible wheel or use a containerized image.
+- GenAI: ensure `GEMINI_API_KEY` is exported for Gemini REST calls. If you don't have access, the fallback templated responses will be used.
+
+Contributing & next steps
+- Add `gh` CLI and run `gh repo create Manunjay_102203009_Ikarus --public --source=. --remote=origin --push` to create the GitHub repo and push (requires you to be logged in with `gh auth login`).
+- Or create a new repo on GitHub web UI and add the remote:
+
+```bash
+git remote add origin https://github.com/<your-username>/Manunjay_102203009_Ikarus.git
+git branch -M main
+git push -u origin main
+```
+
+License
+MIT — see `LICENSE` file (if present). This project template uses permissive license by default.
+
+Contact
+If you need help, open an issue or contact the project owner: Manunjay Bhardwaj
+
