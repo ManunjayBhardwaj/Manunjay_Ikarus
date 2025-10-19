@@ -1,0 +1,21 @@
+uniq_id,title,brand,description,price,categories,images,manufacturer,package dimensions,country_of_origin,material,color
+1,Minimal Wooden Chair,HomeLine,"A compact wooden chair good for small spaces",2499,Chairs,https://example.com/img1.jpg,HomeLine,50x50x80,India,Wood,Brown
+2,Modern Fabric Sofa,CozyNest,"Three-seater modern sofa with removable cushions",28999,Sofas,https://example.com/img2.jpg,CozyNest,200x90x85,India,Fabric,Grey
+3,Scandi Coffee Table,NordicHome,"Ash wood coffee table with minimalist design",7999,Tables,https://example.com/img3.jpg,NordicHome,120x60x45,India,Wood,Natural
+4,Study Desk Compact,WorkWell,"Minimal study desk with drawer",5999,Desks,https://example.com/img4.jpg,WorkWell,120x60x75,India,Engineered Wood,Oak
+5,Ergonomic Office Chair,ErgoPro,"Comfortable office chair with lumbar support",8999,Chairs,https://example.com/img5.jpg,ErgoPro,70x70x120,India,Mesh,Black
+6,Classic Bookshelf,StorAll,"5-tier wooden bookshelf",15999,Storage,https://example.com/img6.jpg,StorAll,80x30x180,India,Wood,Brown
+7,Outdoor Patio Set,SunnyDays,"Weather-resistant rattan patio set",19999,Outdoor,https://example.com/img7.jpg,SunnyDays,180x80x75,India,Rattan,Brown
+8,Minimal Nightstand,SleepWell,"Small nightstand with single drawer",1999,Nightstands,https://example.com/img8.jpg,SleepWell,45x40x50,India,Wood,White
+9,Recliner Armchair,ComfortLux,"Plush recliner with reclining mechanism",24999,Chairs,https://example.com/img9.jpg,ComfortLux,100x90x110,India,Fabric,Blue
+10,Extendable Dining Table,DineFine,"Seats up to 8 when extended",34999,Tables,https://example.com/img10.jpg,DineFine,180x90x75,India,Wood,Walnut
+11,Kids Bunk Bed,LittleOnes,"Solid pine bunk bed with safety rails",17999,Beds,https://example.com/img11.jpg,LittleOnes,200x100x160,India,Wood,Pine
+12,Modern TV Unit,MediaGear,"Floating TV unit with cable management",9999,Storage,https://example.com/img12.jpg,MediaGear,160x40x45,India,Engineered Wood,Walnut
+13,Accent Armchair,StyleSeat,"Statement armchair with brass legs",12999,Chairs,https://example.com/img13.jpg,StyleSeat,85x80x95,India,Fabric,Green
+14,Glass Top Console,ShineHome,"Slim console with tempered glass top",6999,Tables,https://example.com/img14.jpg,ShineHome,120x35x75,India,Glass,Clear
+15,Compact Shoe Rack,ShoeSmart,"3-tier shoe rack for entryway",1499,Storage,https://example.com/img15.jpg,ShoeSmart,80x30x90,India,Metal,Black
+16,Bean Bag Lounger,CozyNest,"Large bean bag for lounging",2999,Sofas,https://example.com/img16.jpg,CozyNest,100x100x60,India,Fabric,Beige
+17,Marble Top Dining Table,EliteHome,"Luxury marble dining table",89999,Tables,https://example.com/img17.jpg,EliteHome,220x100x75,India,Marble,White
+18,Office Storage Cabinet,WorkWell,"Lockable storage cabinet for office",11999,Storage,https://example.com/img18.jpg,WorkWell,100x45x180,India,Metal,Grey
+19,Vintage Dressing Table,RetroLiving,"Dressing table with mirror and drawers",15999,Dressing,https://example.com/img19.jpg,RetroLiving,120x45x160,India,Wood,Dark Brown
+20,Minimal Bar Stool,BarCraft,"Simple wooden bar stool",2499,Seating,https://example.com/img20.jpg,BarCraft,40x40x75,India,Wood,Natural

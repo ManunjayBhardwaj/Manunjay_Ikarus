@@ -1,0 +1,168 @@
+{
+  "generated_at": "2025-10-19T08:53:50.111259Z",
+  "rows": 305,
+  "columns": {
+    "title": {
+      "present": true,
+      "non_null": 305,
+      "null": 0,
+      "unique": 305,
+      "example_values": [
+        "GOYMFK 1pc Free Standing Shoe Rack, Multi-layer Metal Shoe Cap Rack With 8 Double Hooks For Living Room, Bathroom, Hallway",
+        "Kwikset BTBNC1C Pfister Bath Hardware, 18\", Polished Chrome",
+        "Summer Desk Decor,Welcome Summer Wood Block Sign Desk Decor,Rustic Summer Fruits and Popsicles Wooden Box Plaque Sign Desk Decor for Home Office Shelf Table Decorations",
+        "Asense Small Footstool Ottoman Set of 2, Faux Leather Upholstered Rectangular Footrest with Plastic Legs, Celadon",
+        "MoNiBloom Set of 2 Plastic Barstools with PU Cushion, Height Adjustable White Bar Stools with High Backrest and 360° Swivel, Modern Counter Height Barstool for Kitchen Dining Room and Pub"
+      ],
+      "dtype": "object"
+    },
+    "brand": {
+      "present": true,
+      "non_null": 305,
+      "null": 0,
+      "unique": 264,
+      "example_values": [
+        "GOYMFK",
+        "Pfister Store",
+        "z-crange",
+        "Asense Store",
+        "MoNiBloom Store"
+      ],
+      "dtype": "object"
+    },
+    "description": {
+      "present": true,
+      "non_null": 154,
+      "null": 151,
+      "unique": 153,
+      "example_values": [
+        "multiple shoes, coats, hats, and other items Easy to assemble: Includes all necessary hardware and instructions for easy assembly Versatile: Perfect for use in living rooms, bathrooms, hallways, and more",
+        "If sleek and sophisticated are what you are looking for, the Pfister Contempra family is the perfect solution. This collection of bath fixtures incorporates clean, contemporary lines for a modern presence. Items of this collection include single handle bathroom faucets, 8 inch widespread bath sink faucets, vessel faucets, tub and shower faucets complete with shower diverter, roman tub trims and bathtub faucets, and bath tub spouts as well as a matching bathroom accessories and bath hardware. The assortment of bath accessories includes towel bars, towel rings, robe hooks and towel hooks, and tissue holders. All are available in Polished Chrome, Brushed Nickel, and Brushed Gold, and Matte Black. The faucets in this collection are deck mounted, but if you are looking for wall mount bathroom faucet options, the Pfister Kenzo collection contains an assortment of bathroom sink faucets and bathroom tub faucets in closed spout and waterfall faucet configurations. These wall mount tub faucets create a contemporary presence in any space with their angular forms. And, if you are looking for a tub faucet with hand shower, you will find this in the expansive Kenzo collection. For a unified look throughout your home, try pairing the Contempra bath collection with Pfister’s Stellen pull-down kitchen faucets that also have a modern, sleek profile.",
+        "Crafted from premium-quality wood, our desk decor showcases the natural grain and texture of the wood, adding a touch of warmth and sophistication to your desk or office setting. The smooth finish and sturdy construction ensure durability, making it a long-lasting and reliable desk accessory.  Our wooden block box is a decorative accent that enhances the aesthetics of your workspace or home. The natural wood tones and minimalist design seamlessly blend with any decor style, adding a touch of sophistication and elegance to your desk. Our Wooden Block Box Desk Decor also makes a thoughtful gift for coworkers, friends, or loved ones. It's perfect for birthdays, holidays, or as a gesture of appreciation for someone's dedication to their workspace. Cleaning and maintenance are effortless with our wooden block box. Simply wipe it clean with a soft cloth to preserve its pristine appearance and keep it looking its best for years to come.",
+        "Product Advantage: The back of our towel rack is designed with EVA double-sided adhesive to to protect your door from scratches and damage during everyday use. Specifications: - Product Name: Cabinet Towel Holder - Material: Stainless Steel - Color: White - Surface Treatment: Sand Surface - Total Length: 235mm/ 9.25 Inch - Diameter: 13mm/ 0.51 Inch - Hanger Hook Length: 12mm/ 0.47Inch - Hanger Hook Width: 23mm/ 0.90Inch - Total Weight: 5.34 Ounces - Style: Modern, Minimalist Package Content: 2 Pack x Cabinet Towel Holder Note: Please check if the product type meets your requirements before purchasing. We will provide you with high-quality service, allowing you to have a pleasant shopping experience.",
+        "Meet Theergonomic Chair - Your Go-To For Comfort, Durability, And Affordability. With One Top-Notch Chair, A 90-Day Return Policy, And Five Years Of Assistance, We'Ve Got You Covered.Our Chair Promotes A Healthy Posture, Offering Great Lumbar Support And An Adjustable Headrest To Keep You Comfortable.We'Ve Designed It For Lasting Comfort With Quality Padding And Breathable Materials, Reducing Pressure On Your Hips And Tailbone.You Can Personalize Your Experience With Adjustable Features, Like The Headrest, Seat Height, And Lumbar Support. It Even Reclines And Rocks For Added Relaxation.Our Chair Is Built To Last, Passing Commercial Tests For Reliability. With A Sturdy Frame And Base, It Can Support Up To 300 Lbs For Years To Come.In A Nutshell, Ergonomic Chair Is Your Answer For Comfort And Peace Of Mind. It'S Not Just A Chair; It'S Your Trusty Companion For Work And Relaxation, Delivering Unbeatable Comfort And Support."
+      ],
+      "dtype": "object"
+    },
+    "price": {
+      "present": true,
+      "non_null": 210,
+      "null": 95,
+      "unique": 135,
+      "example_values": [
+        "$24.99",
+        "$13.99",
+        "$49.99",
+        "$50.00",
+        "$11.79"
+      ],
+      "dtype": "object"
+    },
+    "categories": {
+      "present": true,
+      "non_null": 305,
+      "null": 0,
+      "unique": 87,
+      "example_values": [
+        "['Home & Kitchen', 'Storage & Organization', 'Clothing & Closet Storage', 'Shoe Organizers', 'Free Standing Shoe Racks']",
+        "['Tools & Home Improvement', 'Hardware', 'Bathroom Hardware', 'Towel Bars']",
+        "['Home & Kitchen', 'Furniture', 'Home Office Furniture', 'Home Office Desks']",
+        "['Home & Kitchen', 'Furniture', 'Living Room Furniture', 'Ottomans']",
+        "['Home & Kitchen', 'Furniture', 'Game & Recreation Room Furniture', 'Home Bar Furniture', 'Barstools']"
+      ],
+      "dtype": "object"
+    },
+    "images": {
+      "present": true,
+      "non_null": 305,
+      "null": 0,
+      "unique": 305,
+      "example_values": [
+        "['https://m.media-amazon.com/images/I/416WaLx10jL._SS522_.jpg ', ' https://m.media-amazon.com/images/I/41kuxipTsuL._SS522_.jpg ', ' https://m.media-amazon.com/images/I/51T9x4yZd3L._SS522_.jpg ', ' https://m.media-amazon.com/images/I/61w6ifIrCpL._SS522_.jpg ', ' https://m.media-amazon.com/images/I/51bBQlUn8GL._SS522_.jpg']",
+        "['https://m.media-amazon.com/images/I/31A+awsgcPL._SS522_.jpg ', ' https://m.media-amazon.com/images/I/31TCyj6Mw4L._SS522_.jpg ', ' https://m.media-amazon.com/images/I/510jaEecaQL._SS522_.jpg ', ' https://m.media-amazon.com/images/I/41XG+3OFb1L._SS522_.jpg ', ' https://m.media-amazon.com/images/I/51Mamj9rPfL._SS522_.jpg ', ' https://m.media-amazon.com/images/I/31S5lR0E4UL._SS522_.jpg ', ' https://m.media-amazon.com/images/I/71OipnmFRKL.SS125_SS522_.jpg']",
+        "['https://m.media-amazon.com/images/I/51sai4l5ttL._SS522_.jpg ', ' https://m.media-amazon.com/images/I/516siFpFIhL._SS522_.jpg ', ' https://m.media-amazon.com/images/I/4168X67EeuL._SS522_.jpg ', ' https://m.media-amazon.com/images/I/41caGwmuxBL._SS522_.jpg ', ' https://m.media-amazon.com/images/I/41rqdWN4zSL._SS522_.jpg ', ' https://m.media-amazon.com/images/I/41lUUB+cLJL._SS522_.jpg']",
+        "['https://m.media-amazon.com/images/I/31mK9NtBNHL._SS522_.jpg ', ' https://m.media-amazon.com/images/I/41GMeMR7RuL._SS522_.jpg ', ' https://m.media-amazon.com/images/I/31E0vOVUGXL._SS522_.jpg ', ' https://m.media-amazon.com/images/I/41k6dghOnrL._SS522_.jpg ', ' https://m.media-amazon.com/images/I/31Wf7UisXJL._SS522_.jpg ', ' https://m.media-amazon.com/images/I/31DfQGAVd1L._SS522_.jpg ', ' https://m.media-amazon.com/images/I/41X+Zqm8u5L.SS125_SS522_.jpg']",
+        "['https://m.media-amazon.com/images/I/31fCq+IIEuL._SS522_.jpg ', ' https://m.media-amazon.com/images/I/51DCFZfWRTL._SS522_.jpg ', ' https://m.media-amazon.com/images/I/416ynZyru+L._SS522_.jpg ', ' https://m.media-amazon.com/images/I/518piEp1IML._SS522_.jpg ', ' https://m.media-amazon.com/images/I/31ianFFR+UL._SS522_.jpg ', ' https://m.media-amazon.com/images/I/31atFGCWf5L._SS522_.jpg ', ' https://m.media-amazon.com/images/I/413FD8z9NKL._SS522_.jpg']"
+      ],
+      "dtype": "object"
+    },
+    "manufacturer": {
+      "present": true,
+      "non_null": 200,
+      "null": 105,
+      "unique": 155,
+      "example_values": [
+        "GOYMFK",
+        "Kwikset",
+        "z-crange",
+        "Asense",
+        "MoNiBloom"
+      ],
+      "dtype": "object"
+    },
+    "package dimensions": {
+      "present": true,
+      "non_null": 0,
+      "null": 305,
+      "unique": 0,
+      "example_values": [],
+      "dtype": "float64"
+    },
+    "country_of_origin": {
+      "present": true,
+      "non_null": 122,
+      "null": 183,
+      "unique": 9,
+      "example_values": [
+        "China",
+        "China",
+        "China",
+        "China",
+        "China"
+      ],
+      "dtype": "object"
+    },
+    "material": {
+      "present": true,
+      "non_null": 212,
+      "null": 93,
+      "unique": 72,
+      "example_values": [
+        "Metal",
+        "Zinc",
+        "Leather",
+        "Foam",
+        "Foam"
+      ],
+      "dtype": "object"
+    },
+    "color": {
+      "present": true,
+      "non_null": 259,
+      "null": 46,
+      "unique": 143,
+      "example_values": [
+        "White",
+        "Polished Chrome",
+        "2 Pack Faux Leather Celadon",
+        "White",
+        "Green"
+      ],
+      "dtype": "object"
+    },
+    "uniq_id": {
+      "present": true,
+      "non_null": 305,
+      "null": 0,
+      "unique": 305,
+      "example_values": [
+        "02593e81-5c09-5069-8516-b0b29f439ded",
+        "02f63b41-dc12-583b-9575-0526ada8642f",
+        "02f8cd17-8c4f-5c32-acc0-4af9115c6c20",
+        "035b473a-3a71-5928-9718-4f2c8e8b6df6",
+        "04bc3112-3c6b-551c-af8f-525b0646b183"
+      ],
+      "dtype": "object"
+    }
+  }
+}

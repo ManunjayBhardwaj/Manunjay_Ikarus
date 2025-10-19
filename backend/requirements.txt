@@ -1,0 +1,16 @@
+langchain>=0.0.266
+# Optional: use Google Vertex AI / Gemini via langchain's VertexAI wrapper
+google-cloud-aiplatform>=1.26.0
+fastapi
+uvicorn[standard]
+python-dotenv
+pandas
+numpy
+scikit-learn
+sentence-transformers
+pinecone-client
+faiss-cpu
+Pillow
+torch
+torchvision
+requests

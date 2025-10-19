@@ -1,0 +1,14 @@
+{
+  "rows": 305,
+  "embed_dim": 384,
+  "clusters": 12,
+  "silhouette": 0.1483859270811081,
+  "time_sec": 7.77,
+  "artifacts": {
+    "embeddings": "backend/backend/storage/embeddings.npy",
+    "faiss_index": "backend/backend/storage/faiss_index.bin",
+    "metadata": "backend/backend/storage/metadata.json",
+    "cluster_labels": "backend/backend/storage/cluster_labels.csv"
+  },
+  "model": "sentence-transformers/all-MiniLM-L6-v2"
+}

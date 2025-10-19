@@ -1,0 +1,1046 @@
+{
+  "categoryCounts": [
+    {
+      "category": "['Home & Kitchen'",
+      "count": 249
+    },
+    {
+      "category": "'Furniture'",
+      "count": 200
+    },
+    {
+      "category": "'Living Room Furniture'",
+      "count": 71
+    },
+    {
+      "category": "'Game & Recreation Room Furniture'",
+      "count": 34
+    },
+    {
+      "category": "'Tables'",
+      "count": 28
+    },
+    {
+      "category": "'Storage & Organization'",
+      "count": 26
+    },
+    {
+      "category": "'Mirrors'",
+      "count": 25
+    },
+    {
+      "category": "'Ottomans']",
+      "count": 21
+    },
+    {
+      "category": "'Home Bar Furniture'",
+      "count": 21
+    },
+    {
+      "category": "'End Tables']",
+      "count": 21
+    },
+    {
+      "category": "['Patio",
+      "count": 21
+    },
+    {
+      "category": "Lawn & Garden'",
+      "count": 21
+    },
+    {
+      "category": "'Home Décor Products'",
+      "count": 21
+    },
+    {
+      "category": "'Wall-Mounted Mirrors']",
+      "count": 21
+    },
+    {
+      "category": "'Outdoor Décor'",
+      "count": 20
+    },
+    {
+      "category": "'Doormats']",
+      "count": 20
+    },
+    {
+      "category": "'Home Office Furniture'",
+      "count": 19
+    },
+    {
+      "category": "'Barstools']",
+      "count": 18
+    },
+    {
+      "category": "['Tools & Home Improvement'",
+      "count": 17
+    },
+    {
+      "category": "'Hardware'",
+      "count": 17
+    },
+    {
+      "category": "'Bathroom Hardware'",
+      "count": 17
+    },
+    {
+      "category": "'Bedroom Furniture'",
+      "count": 16
+    },
+    {
+      "category": "'Chairs']",
+      "count": 15
+    },
+    {
+      "category": "'Clothing & Closet Storage'",
+      "count": 13
+    },
+    {
+      "category": "'Shoe Organizers'",
+      "count": 13
+    },
+    {
+      "category": "\"Kids' Furniture\"",
+      "count": 13
+    },
+    {
+      "category": "'Towel Bars']",
+      "count": 11
+    },
+    {
+      "category": "'Home Office Chairs'",
+      "count": 10
+    },
+    {
+      "category": "'Home Office Desk Chairs']",
+      "count": 10
+    },
+    {
+      "category": "'Replacement Parts'",
+      "count": 10
+    },
+    {
+      "category": "'Dining Room Furniture'",
+      "count": 10
+    },
+    {
+      "category": "'Entryway Furniture'",
+      "count": 8
+    },
+    {
+      "category": "'Home Office Desks']",
+      "count": 7
+    },
+    {
+      "category": "'Bean Bags']",
+      "count": 7
+    },
+    {
+      "category": "'Towel Rings']",
+      "count": 6
+    },
+    {
+      "category": "['Baby Products'",
+      "count": 6
+    },
+    {
+      "category": "'Nursery'",
+      "count": 6
+    },
+    {
+      "category": "['Electronics'",
+      "count": 6
+    },
+    {
+      "category": "'Folding Tables & Chairs'",
+      "count": 6
+    },
+    {
+      "category": "'Trash",
+      "count": 6
+    },
+    {
+      "category": "Recycling & Compost'",
+      "count": 6
+    },
+    {
+      "category": "'Wastebaskets']",
+      "count": 6
+    },
+    {
+      "category": "'Free Standing Shoe Racks']",
+      "count": 5
+    },
+    {
+      "category": "'Nightstands']",
+      "count": 5
+    },
+    {
+      "category": "'Bathroom Furniture'",
+      "count": 5
+    },
+    {
+      "category": "'Gaming Chairs'",
+      "count": 5
+    },
+    {
+      "category": "'Furniture']",
+      "count": 5
+    },
+    {
+      "category": "'Television & Video'",
+      "count": 5
+    },
+    {
+      "category": "'Accessories'",
+      "count": 5
+    },
+    {
+      "category": "'TV Mounts",
+      "count": 5
+    },
+    {
+      "category": "Stands & Turntables'",
+      "count": 5
+    },
+    {
+      "category": "'TV Wall & Ceiling Mounts']",
+      "count": 5
+    },
+    {
+      "category": "'Storage Benches']",
+      "count": 4
+    },
+    {
+      "category": "'Sofa Parts']",
+      "count": 4
+    },
+    {
+      "category": "'Tables']",
+      "count": 4
+    },
+    {
+      "category": "'Coat Racks']",
+      "count": 4
+    },
+    {
+      "category": "'Bean Bags",
+      "count": 4
+    },
+    {
+      "category": "Covers & Refills'",
+      "count": 4
+    },
+    {
+      "category": "'Bath'",
+      "count": 4
+    },
+    {
+      "category": "'Bathroom Accessories'",
+      "count": 4
+    },
+    {
+      "category": "'Accent Furniture'",
+      "count": 4
+    },
+    {
+      "category": "'Storage Cabinets']",
+      "count": 4
+    },
+    {
+      "category": "['Beauty & Personal Care'",
+      "count": 4
+    },
+    {
+      "category": "'Tools & Accessories'",
+      "count": 4
+    },
+    {
+      "category": "'Folding Tables']",
+      "count": 4
+    },
+    {
+      "category": "'Bed Parts']",
+      "count": 4
+    },
+    {
+      "category": "'Chairs & Seats'",
+      "count": 4
+    },
+    {
+      "category": "'Over the Door Shoe Organizers']",
+      "count": 3
+    },
+    {
+      "category": "'Kitchen Furniture'",
+      "count": 3
+    },
+    {
+      "category": "'Storage Islands & Carts'",
+      "count": 3
+    },
+    {
+      "category": "'Sofa & Console Tables']",
+      "count": 3
+    },
+    {
+      "category": "'Beds",
+      "count": 3
+    },
+    {
+      "category": "Frames & Bases'",
+      "count": 3
+    },
+    {
+      "category": "'Coffee Tables']",
+      "count": 3
+    },
+    {
+      "category": "'Makeup Mirrors']",
+      "count": 3
+    },
+    {
+      "category": "'Video Game Chairs']",
+      "count": 3
+    },
+    {
+      "category": "'Poufs']",
+      "count": 3
+    },
+    {
+      "category": "'Kitchen & Dining'",
+      "count": 3
+    },
+    {
+      "category": "'Racks & Holders'",
+      "count": 3
+    },
+    {
+      "category": "'Wine Racks & Cabinets'",
+      "count": 3
+    },
+    {
+      "category": "'Over-the-Toilet Storage']",
+      "count": 3
+    },
+    {
+      "category": "'Mattresses & Box Springs'",
+      "count": 2
+    },
+    {
+      "category": "'Dressers']",
+      "count": 2
+    },
+    {
+      "category": "'Bedding'",
+      "count": 2
+    },
+    {
+      "category": "'Mattress Pads & Toppers'",
+      "count": 2
+    },
+    {
+      "category": "'Mattress Toppers']",
+      "count": 2
+    },
+    {
+      "category": "'Bed Frames']",
+      "count": 2
+    },
+    {
+      "category": "'Sofas']",
+      "count": 2
+    },
+    {
+      "category": "'Toy Bags & Nets']",
+      "count": 2
+    },
+    {
+      "category": "'Bathroom Sets']",
+      "count": 2
+    },
+    {
+      "category": "'Computer Gaming Chairs']",
+      "count": 2
+    },
+    {
+      "category": "'Toy Chests & Organizers']",
+      "count": 2
+    },
+    {
+      "category": "'Vanities & Vanity Benches']",
+      "count": 2
+    },
+    {
+      "category": "'Boot & Shoe Boxes']",
+      "count": 2
+    },
+    {
+      "category": "'TV & Media Furniture'",
+      "count": 2
+    },
+    {
+      "category": "'Media Storage'",
+      "count": 2
+    },
+    {
+      "category": "'DVD Cases']",
+      "count": 2
+    },
+    {
+      "category": "'Bookcases",
+      "count": 2
+    },
+    {
+      "category": "Cabinets & Shelves']",
+      "count": 2
+    },
+    {
+      "category": "'Bars & Wine Cabinets'",
+      "count": 2
+    },
+    {
+      "category": "'Recliner Parts']",
+      "count": 2
+    },
+    {
+      "category": "'Step Stools']",
+      "count": 2
+    },
+    {
+      "category": "'Freestanding Wine Racks & Cabinets']",
+      "count": 2
+    },
+    {
+      "category": "'Towel Holders'",
+      "count": 2
+    },
+    {
+      "category": "'Towel Racks']",
+      "count": 2
+    },
+    {
+      "category": "'Bookcases']",
+      "count": 2
+    },
+    {
+      "category": "'TV Trays']",
+      "count": 2
+    },
+    {
+      "category": "'Mobile Storage Islands']",
+      "count": 2
+    },
+    {
+      "category": "'Table & Chair Sets']",
+      "count": 2
+    },
+    {
+      "category": "['Office Products'",
+      "count": 2
+    },
+    {
+      "category": "'Folding Chairs']",
+      "count": 2
+    },
+    {
+      "category": "'Storage Carts']",
+      "count": 1
+    },
+    {
+      "category": "'Mattresses']",
+      "count": 1
+    },
+    {
+      "category": "'Bedroom Armoires']",
+      "count": 1
+    },
+    {
+      "category": "'Bathroom Mirrors'",
+      "count": 1
+    },
+    {
+      "category": "'Wall-Mounted Vanity Mirrors']",
+      "count": 1
+    },
+    {
+      "category": "'Game & Recreation Room Furniture']",
+      "count": 1
+    },
+    {
+      "category": "'Ladder Shelves']",
+      "count": 1
+    },
+    {
+      "category": "'Home Audio'",
+      "count": 1
+    },
+    {
+      "category": "'Turntables & Accessories'",
+      "count": 1
+    },
+    {
+      "category": "'Turntables']",
+      "count": 1
+    },
+    {
+      "category": "'Living Room Sets']",
+      "count": 1
+    },
+    {
+      "category": "'Sofas & Couches']",
+      "count": 1
+    },
+    {
+      "category": "'Wine Cabinets']",
+      "count": 1
+    },
+    {
+      "category": "'Bar Cabinets']",
+      "count": 1
+    },
+    {
+      "category": "'Shower Mirrors']",
+      "count": 1
+    },
+    {
+      "category": "'Hampers']",
+      "count": 1
+    },
+    {
+      "category": "'Storage Trunks & Chests'",
+      "count": 1
+    },
+    {
+      "category": "'Storage Trunks']",
+      "count": 1
+    },
+    {
+      "category": "'Changing & Dressing'",
+      "count": 1
+    },
+    {
+      "category": "'Chests & Dressers']",
+      "count": 1
+    },
+    {
+      "category": "'Bar & Serving Carts']",
+      "count": 1
+    },
+    {
+      "category": "'Laundry Storage & Organization'",
+      "count": 1
+    },
+    {
+      "category": "'Pop-Up Laundry Hampers']",
+      "count": 1
+    },
+    {
+      "category": "'Bathroom Mirrors']",
+      "count": 1
+    },
+    {
+      "category": "'Infant & Toddler Beds'",
+      "count": 1
+    },
+    {
+      "category": "'Bassinets'",
+      "count": 1
+    },
+    {
+      "category": "'Bedside Cribs']",
+      "count": 1
+    },
+    {
+      "category": "'Folding Shoe Racks']",
+      "count": 1
+    },
+    {
+      "category": "'Beds']",
+      "count": 1
+    },
+    {
+      "category": "'Office Furniture & Lighting'",
+      "count": 1
+    },
+    {
+      "category": "'Chairs & Sofas'",
+      "count": 1
+    },
+    {
+      "category": "'Managerial & Executive Chairs']",
+      "count": 1
+    },
+    {
+      "category": "'Table Benches']",
+      "count": 1
+    },
+    {
+      "category": "'Patio Furniture & Accessories'",
+      "count": 1
+    },
+    {
+      "category": "'Patio Seating'",
+      "count": 1
+    },
+    {
+      "category": "'Chairs'",
+      "count": 1
+    },
+    {
+      "category": "'Adirondack Chairs']",
+      "count": 1
+    },
+    {
+      "category": "'Gliders",
+      "count": 1
+    },
+    {
+      "category": "Ottomans & Rocking Chairs'",
+      "count": 1
+    },
+    {
+      "category": "'Tables & Chairs'",
+      "count": 1
+    },
+    {
+      "category": "'Office & School Supplies'",
+      "count": 1
+    },
+    {
+      "category": "'Filing Products'",
+      "count": 1
+    },
+    {
+      "category": "'Supply Organizers']",
+      "count": 1
+    },
+    {
+      "category": "'Nesting Tables']",
+      "count": 1
+    },
+    {
+      "category": "'Box Springs']",
+      "count": 1
+    },
+    {
+      "category": "'Desk Chairs']",
+      "count": 1
+    },
+    {
+      "category": "'Shoe Cabinets']",
+      "count": 1
+    },
+    {
+      "category": "'Wall-Mounted Wine Racks']",
+      "count": 1
+    },
+    {
+      "category": "'Shoe Slots']",
+      "count": 1
+    }
+  ],
+  "avgPriceByCategory": [
+    {
+      "category": "['Baby Products'",
+      "avg_price": 107.174
+    },
+    {
+      "category": "['Office Products'",
+      "avg_price": 101.99000000000001
+    },
+    {
+      "category": "['Electronics'",
+      "avg_price": 91.75
+    },
+    {
+      "category": "['Home & Kitchen'",
+      "avg_price": 71.30739644970414
+    },
+    {
+      "category": "['Tools & Home Improvement'",
+      "avg_price": 50.71666666666667
+    },
+    {
+      "category": "['Beauty & Personal Care'",
+      "avg_price": 31.654999999999998
+    },
+    {
+      "category": "['Patio",
+      "avg_price": 27.81866666666667
+    }
+  ],
+  "brandTop": [
+    {
+      "brand": "MoNiBloom Store",
+      "count": 5
+    },
+    {
+      "brand": "Flash Furniture Store",
+      "count": 5
+    },
+    {
+      "brand": "Caroline's Treasures Store",
+      "count": 4
+    },
+    {
+      "brand": "Kingston Brass Store",
+      "count": 4
+    },
+    {
+      "brand": "HomePop Store",
+      "count": 4
+    },
+    {
+      "brand": "Convenience Concepts Store",
+      "count": 3
+    },
+    {
+      "brand": "Pfister Store",
+      "count": 2
+    },
+    {
+      "brand": "Homebeez Store",
+      "count": 2
+    },
+    {
+      "brand": "Toland Home Garden Store",
+      "count": 2
+    },
+    {
+      "brand": "BOKKOLIK Store",
+      "count": 2
+    },
+    {
+      "brand": "Christopher Knight Home Store",
+      "count": 2
+    },
+    {
+      "brand": "GIA Store",
+      "count": 2
+    },
+    {
+      "brand": "GXFC ZHAO Store",
+      "count": 2
+    },
+    {
+      "brand": "Casual Home Store",
+      "count": 2
+    },
+    {
+      "brand": "Cpintltr Store",
+      "count": 2
+    },
+    {
+      "brand": "Leick Home Store",
+      "count": 2
+    },
+    {
+      "brand": "ODK Store",
+      "count": 2
+    },
+    {
+      "brand": "glitzhome",
+      "count": 2
+    },
+    {
+      "brand": "Serta Store",
+      "count": 2
+    },
+    {
+      "brand": "FLYJOE",
+      "count": 2
+    }
+  ],
+  "materials": [
+    {
+      "material": "unknown",
+      "count": 93
+    },
+    {
+      "material": "wood",
+      "count": 31
+    },
+    {
+      "material": "engineered-wood",
+      "count": 25
+    },
+    {
+      "material": "metal",
+      "count": 14
+    },
+    {
+      "material": "rubber",
+      "count": 14
+    },
+    {
+      "material": "foam",
+      "count": 12
+    },
+    {
+      "material": "iron",
+      "count": 7
+    },
+    {
+      "material": "brass",
+      "count": 7
+    },
+    {
+      "material": "stainless steel",
+      "count": 5
+    },
+    {
+      "material": "plastic",
+      "count": 5
+    },
+    {
+      "material": "bamboo",
+      "count": 5
+    },
+    {
+      "material": "glass",
+      "count": 4
+    },
+    {
+      "material": "fabric",
+      "count": 4
+    },
+    {
+      "material": "alloy steel",
+      "count": 4
+    },
+    {
+      "material": "memory foam",
+      "count": 4
+    },
+    {
+      "material": "sponge",
+      "count": 4
+    },
+    {
+      "material": "leather",
+      "count": 3
+    },
+    {
+      "material": "aluminum",
+      "count": 3
+    },
+    {
+      "material": "polyester",
+      "count": 3
+    },
+    {
+      "material": "zinc",
+      "count": 2
+    },
+    {
+      "material": "tempered glass",
+      "count": 2
+    },
+    {
+      "material": "vinyl",
+      "count": 2
+    },
+    {
+      "material": "recycled material",
+      "count": 2
+    },
+    {
+      "material": "cotton",
+      "count": 2
+    },
+    {
+      "material": "non woven fabric",
+      "count": 1
+    },
+    {
+      "material": "wood tabletop,wooden tabletop",
+      "count": 1
+    },
+    {
+      "material": "mdf board and metal",
+      "count": 1
+    },
+    {
+      "material": "metal, wood",
+      "count": 1
+    },
+    {
+      "material": "aluminum, glass",
+      "count": 1
+    },
+    {
+      "material": "suede",
+      "count": 1
+    },
+    {
+      "material": "nylon",
+      "count": 1
+    },
+    {
+      "material": "resin",
+      "count": 1
+    },
+    {
+      "material": "wood, iron",
+      "count": 1
+    },
+    {
+      "material": "beech,particle board",
+      "count": 1
+    },
+    {
+      "material": "acrylonitrile butadiene styrene",
+      "count": 1
+    },
+    {
+      "material": "eva + pvc + pp + non-woven fabric",
+      "count": 1
+    },
+    {
+      "material": "aluminum,bamboo",
+      "count": 1
+    },
+    {
+      "material": "engineered wood, polyester",
+      "count": 1
+    },
+    {
+      "material": "walnut,solid wood,mdf",
+      "count": 1
+    },
+    {
+      "material": "this is an empty shell that you have to stuff.",
+      "count": 1
+    },
+    {
+      "material": "solid + manufactured wood,particle board/chipboard",
+      "count": 1
+    },
+    {
+      "material": "manufactured wood,mdf",
+      "count": 1
+    },
+    {
+      "material": "walnut wood",
+      "count": 1
+    },
+    {
+      "material": "textile",
+      "count": 1
+    },
+    {
+      "material": "pet",
+      "count": 1
+    },
+    {
+      "material": "pine",
+      "count": 1
+    },
+    {
+      "material": "polyvinyl chloride",
+      "count": 1
+    },
+    {
+      "material": "engineered wood, metal",
+      "count": 1
+    },
+    {
+      "material": "vinyl, plastic, polypropylene (pp)",
+      "count": 1
+    },
+    {
+      "material": "polypropylene",
+      "count": 1
+    },
+    {
+      "material": "glass, engineered wood",
+      "count": 1
+    },
+    {
+      "material": "velvet",
+      "count": 1
+    },
+    {
+      "material": "oxford",
+      "count": 1
+    },
+    {
+      "material": "pine, wood",
+      "count": 1
+    },
+    {
+      "material": "solid wood,iron",
+      "count": 1
+    },
+    {
+      "material": "rubber wood, engineered wood",
+      "count": 1
+    },
+    {
+      "material": "steel/mirror",
+      "count": 1
+    },
+    {
+      "material": "black",
+      "count": 1
+    },
+    {
+      "material": "engineered wood, beechwood, metal",
+      "count": 1
+    },
+    {
+      "material": "mdf,metal,plastic",
+      "count": 1
+    },
+    {
+      "material": "polyethylene",
+      "count": 1
+    },
+    {
+      "material": "glass, metal",
+      "count": 1
+    },
+    {
+      "material": "棉质",
+      "count": 1
+    },
+    {
+      "material": "pp cotton",
+      "count": 1
+    },
+    {
+      "material": "multiple base materials",
+      "count": 1
+    },
+    {
+      "material": "manufactured wood",
+      "count": 1
+    },
+    {
+      "material": "80% linen printed nonwoven +20% solid nonwoven+ 20%paperboard",
+      "count": 1
+    },
+    {
+      "material": "wood, glass",
+      "count": 1
+    },
+    {
+      "material": "high density comfort foam",
+      "count": 1
+    },
+    {
+      "material": "porcelain",
+      "count": 1
+    },
+    {
+      "material": "stainless steel, metal",
+      "count": 1
+    },
+    {
+      "material": "stone",
+      "count": 1
+    }
+  ]
+}
